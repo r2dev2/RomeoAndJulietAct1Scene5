@@ -1,7 +1,7 @@
 import vlc
 
 effect_objects = []
-song_names = ["Knuckles.mp3", "Cantina.mp3", "Huliet.mp3", "Snap.mp3"]
+song_names = ["knuckles.mp3", "Cantina.mp3", "Huliet.mp3", "Snap.mp3"]
 
 for i, song in enumerate(song_names, 1):
     effect_objects.append(vlc.MediaPlayer(song))
